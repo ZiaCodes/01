@@ -43,7 +43,7 @@ TypeWritter.prototype.type = function () {
         //Move to next Word
         this.wordIndex++;
         //Pause before start typing
-        TypeSpeed = 500;
+        TypeSpeed = 800;
     }
 
 
