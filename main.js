@@ -27,7 +27,7 @@ TypeWritter.prototype.type = function () {
     this.txtElement.innerHTML = `<span class="txt">${this.txt}</span>`;
 
     //Initial TypeSpeed
-    let TypeSpeed = 300;
+    let TypeSpeed = 200;
     if (this.isDeleting) {
         TypeSpeed /= 2;
     }
@@ -43,7 +43,7 @@ TypeWritter.prototype.type = function () {
         //Move to next Word
         this.wordIndex++;
         //Pause before start typing
-        TypeSpeed = 500;
+        TypeSpeed = 300;
     }
 
 
