@@ -73,7 +73,31 @@ font-weight:400;
 line-height:1;
 color:#fff;
 text-align:center;
-text-shadow:0 2px 3px #333;
+text-shadow:0 2px 3px #333;}
+
+.txt-type > .txt{
+    border-right: 0.2rem solid #777777;
+}
+@media(min-width:1200px){
+    h1{
+        font-size: 4rem;
+    }
+}
+@media(max-width:800px){
+    .container{
+        padding: 0 1rem;
+    }
+    h1{
+        font-size: 3rem;
+    }
+}
+@media(max-width:500px){
+    h1{
+        font-size: 2.5rem;
+    }
+    h1{
+        font-size: 1.5rem;
+    }
 }
 .page-content{position:relative;
 z-index:1;
